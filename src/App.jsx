@@ -11,6 +11,7 @@ function App() {
      <div className="mt-12 md:flex">
      <Formulario />
      <ListadoPacientes />
+     
      </div>
     </div>
   )

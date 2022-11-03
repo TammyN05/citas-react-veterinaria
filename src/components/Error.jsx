@@ -1,11 +1,8 @@
-import React from 'react'
-
-
 const Error = ({children}) => {
   return (
-    <div className='bg-red-800 text-white text-center uppercase font-bold p-2 rounded-lg mb-5'>
-        <p>{children}</p>
-    </div>
+      <div className="bg-red-800 text-white text-center p-3 uppercase font-bold mb-3 rounded-md">
+          {children}
+      </div>
   )
 }
 
